@@ -3,8 +3,16 @@ Manage Jenkins
 Credentials
 System
 Global credentials (unrestricted)
-kind: secret key
+Add credentials
+kind: secret text
 secret: give access key
-id: acess key
+id: acess_key
+des: acess_key
+--------------
+Add credentials
+kind: secret text
+secret: give secret key
+id: secret_key
+des: secret_key
 
 give access key and secret key like this
